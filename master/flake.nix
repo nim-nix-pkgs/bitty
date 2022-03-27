@@ -11,6 +11,7 @@
   inputs.src-bitty-master.ref   = "refs/heads/master";
   inputs.src-bitty-master.owner = "treeform";
   inputs.src-bitty-master.repo  = "bitty";
+  inputs.src-bitty-master.dir   = "";
   inputs.src-bitty-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

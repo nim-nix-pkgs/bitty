@@ -11,6 +11,7 @@
   inputs.src-bitty-0_1_3.ref   = "refs/tags/0.1.3";
   inputs.src-bitty-0_1_3.owner = "treeform";
   inputs.src-bitty-0_1_3.repo  = "bitty";
+  inputs.src-bitty-0_1_3.dir   = "";
   inputs.src-bitty-0_1_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
