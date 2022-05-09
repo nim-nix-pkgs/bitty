@@ -7,8 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/treeform/bitty/",
   "refs": [
-    "error: RPC failed; curl 16 Error in the HTTP2 framing layer",
-    "fatal: expected flush after ref listing",
+    "fatal: unable to access 'https://github.com/treeform/bitty/': Failed to connect to github.com port 443 after 131631 ms: Connection timed out",
     ""
   ],
   "heads": []
